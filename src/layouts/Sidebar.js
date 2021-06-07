@@ -7,23 +7,21 @@ export default function Sidebar() {
                 <div className="modal-content">
                     <div className="modal-body p-0">
 
-
                         <div className="profileBox">
                             <div className="image-wrapper">
                                 <img src="assets/img/sample/avatar/avatar1.jpg" alt="image" className="imaged rounded"></img>
                             </div>
                             <div className="in">
-                                <strong>Julian Gruber</strong>
+                                <strong>Çağatay Yılmaz</strong>
                                 <div className="text-muted">
                                     <ion-icon name="location"></ion-icon>
-                                    California
+                                    Istanbul
                                 </div>
                             </div>
                             <a href="#" className="close-sidebar-button" data-dismiss="modal">
                                 <ion-icon name="close"></ion-icon>
                             </a>
-                        </div>
-          
+                        </div>          
 
                         <ul className="listview flush transparent no-line image-listview mt-2">
                             <li>
