@@ -3,6 +3,7 @@ import BottomMenu from './layouts/BottomMenu';
 import Capsule from './layouts/Capsule';
 import Header from './layouts/Header';
 import Loader from './layouts/Loader';
+import Search from './layouts/Search';
 import Sidebar from './layouts/Sidebar';
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
     <div className="App">
       <Loader/>
       <Header/>
+      <Search/>
       <Capsule/>
       <BottomMenu/>
       <Sidebar/>
