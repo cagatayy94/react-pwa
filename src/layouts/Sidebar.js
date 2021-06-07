@@ -32,27 +32,7 @@ export default function Sidebar() {
                                         <ion-icon name="home-outline"></ion-icon>
                                     </div>
                                     <div className="in">
-                                        Discover
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" className="item">
-                                    <div className="icon-box bg-primary">
-                                        <ion-icon name="cube-outline"></ion-icon>
-                                    </div>
-                                    <div className="in">
-                                        Components
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" className="item">
-                                    <div className="icon-box bg-primary">
-                                        <ion-icon name="layers-outline"></ion-icon>
-                                    </div>
-                                    <div className="in">
-                                        <div>Pages</div>
+                                        Home
                                     </div>
                                 </a>
                             </li>
@@ -96,39 +76,6 @@ export default function Sidebar() {
                                     </div>
                                 </a>
                             </li>
-                            <li>
-                                <a href="page-chat.html" className="item">
-                                    <img src="assets/img/sample/avatar/avatar3.jpg" alt="image" className="image"></img>
-                                    <div className="in">
-                                        <div>Sebastian Bennett</div>
-                                        <span className="badge badge-danger">6</span>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="page-chat.html" className="item">
-                                    <img src="assets/img/sample/avatar/avatar10.jpg" alt="image" className="image"></img>
-                                    <div className="in">
-                                        <div>Beth Murphy</div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="page-chat.html" className="item">
-                                    <img src="assets/img/sample/avatar/avatar2.jpg" alt="image" className="image"></img>
-                                    <div className="in">
-                                        <div>Amelia Cabal</div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="page-chat.html" className="item">
-                                    <img src="assets/img/sample/avatar/avatar5.jpg" alt="image" className="image"></img>
-                                    <div className="in">
-                                        <div>Henry Doe</div>
-                                    </div>
-                                </a>
-                            </li>
                         </ul>
 
                     </div>
@@ -137,9 +84,6 @@ export default function Sidebar() {
                     <div className="sidebar-buttons">
                         <a href="#" className="button">
                             <ion-icon name="person-outline"></ion-icon>
-                        </a>
-                        <a href="#" className="button">
-                            <ion-icon name="archive-outline"></ion-icon>
                         </a>
                         <a href="#" className="button">
                             <ion-icon name="settings-outline"></ion-icon>
