@@ -1,20 +1,27 @@
 import './App.css';
-import BottomMenu from './layouts/BottomMenu';
-import Capsule from './layouts/Capsule';
-import Header from './layouts/Header';
 import Loader from './layouts/Loader';
-import Search from './layouts/Search';
-import Sidebar from './layouts/Sidebar';
+import Authenticated from './layouts/Authenticated';
+import Unauthenticated from './layouts/Unauthenticated';
+import React, {useState} from 'react'
+import { useHistory } from 'react-router'
 
 function App() {
+  const [isAuthenticated, setIsAuthenticated] = useState(true)
+  const history = useHistory()
+
+  function handleSignOut(){
+    setIsAuthenticated(false)
+    history.push('/')
+  }
+
+  function handleSignIn(){
+    setIsAuthenticated(true)
+  }
+
   return (
     <div className="App">
       <Loader/>
-      <Header/>
-      <Search/>
-      <Capsule/>
-      <BottomMenu/>
-      <Sidebar/>
+      {isAuthenticated?<Authenticated signOut={handleSignOut} bisey="1"/>:<Unauthenticated signIn={handleSignIn}/>}
     </div>
   );
 }
