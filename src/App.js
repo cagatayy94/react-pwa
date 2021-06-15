@@ -6,7 +6,7 @@ import React, {useState} from 'react'
 import { useHistory } from 'react-router'
 
 function App() {
-  const [isAuthenticated, setIsAuthenticated] = useState(true)
+  const [isAuthenticated, setIsAuthenticated] = useState(false)
   const history = useHistory()
 
   function handleSignOut(){
@@ -21,7 +21,7 @@ function App() {
   return (
     <div className="App">
       <Loader/>
-      {isAuthenticated?<Authenticated signOut={handleSignOut} bisey="1"/>:<Unauthenticated signIn={handleSignIn}/>}
+      {isAuthenticated?<Authenticated signOut={handleSignOut}/>:<Unauthenticated signIn={handleSignIn}/>}
     </div>
   );
 }
